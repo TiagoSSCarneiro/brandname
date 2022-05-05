@@ -1,0 +1,25 @@
+.container-pricing {
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-titulo {
+    text-align: center;
+    width: 600px; 
+    margin-bottom: 80px;
+}
+
+.pricing-titulo h2 {
+    font-size: var(--fonte-grande);
+    margin-bottom: 10px;
+    color: var(--azul-padrao-escuro);
+}
+
+.pricing-titulo p {
+    font-size: var(--fonte-muito-pequena); 
+    padding: 0 85px; 
+    color: var(--cor-fonte-escura);
+    word-spacing: 1.5px;
+    line-height: 20px;
+}

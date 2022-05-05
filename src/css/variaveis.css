@@ -1,0 +1,16 @@
+:root {
+    --azul-padrao-claro:#23a6f0;
+    --azul-padrao-escuro:#252b42;
+    --fundo-claro:rgba(250,250,250,1);
+    --fonte-cor-branca:rgba(255, 255, 255, 1);
+    --cor-fonte-escura:rgba(115, 115, 115, 1); 
+}
+
+:root {
+    --fonte-primaria:'Montserrat', sans-serif;
+    --fonte-muito-pequena: 0.8rem;
+    --fonte-pequena:1rem;
+    --fonte-media:1.5rem;
+    --fonte-normal:2.5rem;
+    --fonte-grande:3.625rem;
+}

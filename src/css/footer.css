@@ -1,0 +1,117 @@
+.contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 150px;   
+}
+
+.contato h3 {
+    margin-bottom: 10px;
+    color: var(--azul-padrao-escuro);
+}
+
+.contato p{
+    color: var(--azul-padrao-escuro);
+    font-size: var(--fonte-muito-pequena);
+}
+
+.contato .btn-contato {
+    background-color: var(--azul-padrao-claro);
+    color: var(--fonte-cor-branca);
+    font-weight: 700;
+    font-size: var(--fonte-muito-pequena);
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+
+.contato .btn-contato:hover{
+    background-color: white;
+    color: var(--azul-padrao-claro);
+    border: 1px solid var(--azul-padrao-claro);
+
+}
+
+.container-compania { 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 50px 100px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container-compania .compania-info h5 {
+    color: var(--azul-padrao-escuro);
+    font-size: var(--fonte-pequena);
+    margin-bottom: 20px;
+}
+
+.container-compania .compania-info  {
+    margin-right: 88px;
+}
+
+.compania-info li {
+    padding-bottom: 10px;
+    font-size: var(--fonte-muito-pequena);  
+}
+.compania-info li a {
+    color: var(--cor-fonte-escura);
+    font-weight: 600;
+    line-height:28px ;
+}
+
+.compania-info i{
+    color: var(--azul-padrao-claro);
+    font-size: 22px;
+    padding-right: 8px;
+    
+}
+
+.icon-contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon-contato li {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: var(--cor-fonte-escura);
+    text-align: start;
+}
+
+.container-rodape .rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0 75px;
+    
+}
+
+.container-rodape .rodape p{
+    font-size: var(--fonte-muito-pequena);
+    color: var(--cor-fonte-escura);
+    font-weight: 600;
+
+}
+
+.rede-social a i {
+    color: var(--azul-padrao-claro);
+    font-size: 20px;
+    margin-right: 10px;
+    transition: 0.2s ease-in-out;
+    border-radius: 50%;
+}
+
+.rede-social a i:hover {
+    color: var(--azul-padrao-escuro);
+}
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+.container-card-pricing {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end; 
+}
+
+.cards-options {
+    border: 1px solid var(--azul-padrao-claro);
+    border-radius: 10px;
+}
+
+.princing-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 665px;
+    border-radius: 10px;
+}
+
+.princing-cards .titulo-card {
+    text-align: center;
+    padding: 0 70px;
+    margin: 50px 0 30px 0;
+}
+
+.princing-cards .titulo-card h3 {
+    font-size: 24px;
+    color: var(--azul-padrao-escuro);
+    margin-bottom:30px;  
+}
+.princing-cards .titulo-card p {
+    font-size: var(--fonte-pequena);
+    color: var(--cor-fonte-escura);
+    font-weight: 700;
+    word-spacing: 1px;
+    line-height: 27px;
+}
+
+.princing-cards .texto-preco {
+    display: flex;
+    align-items: center;
+    color: var(--azul-padrao-claro);
+    margin-bottom: 25px;
+}
+
+.princing-cards .texto-preco h2 {
+    font-size: var(--fonte-grande);
+}
+
+.princing-cards .texto-preco .cifrao {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;   
+}
+
+.texto-preco .cifrao span {
+    color: rgba(142, 194, 242, 1);  
+}
+
+.texto-preco .cifrao :first-child {
+    color: var(--azul-padrao-claro);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 34px;   
+}
+.lista-vantagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-vantagens ul {
+    padding: 0 15px;
+}
+
+.lista-vantagens .icone {
+    width: 36px;
+    height: 36px;
+    background-color: black;
+    background-color: #2DC071;
+    border-radius: 50%;   
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-vantagens .ico-undefined {
+    background-color: #BDBDBD;
+}
+
+.vantagens li {
+    font-size: var(--fonte-pequena);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    word-spacing: 1.5px;
+    padding-bottom: 18px;
+    font-weight: bold;
+    color: var(--azul-padrao-escuro);
+}
+
+.lista-vantagens .btn-confirm {
+    background-color: var(--azul-padrao-claro);
+    color: var(--fonte-cor-branca);
+    width: 246px;
+    height: 52px;
+    text-align: center; 
+    border-radius: 5px;
+    padding: 15px 40px 15px 40px; 
+    margin-top: 30px;
+    transition: 0.2s ease-in-out;   
+}
+
+.lista-vantagens .btn-confirm:hover {
+    background-color: var(--azul-padrao-escuro);
+}
+
+.card-dois {
+    background-color:var(--azul-padrao-escuro);
+    height: 705px;
+}
+
+.card-dois .titulo-card h3 { 
+    color: var(--fonte-cor-branca);
+}
+
+.card-dois .titulo-card p {
+    color: var(--fonte-cor-branca);
+}
+
+.card-dois li {
+    color: var(--fonte-cor-branca);
+    font-weight: 600;
+}
+
+.card-dois .btn-confirm:hover {
+    background-color: aliceblue;
+    color: var(--azul-padrao-claro);
+}

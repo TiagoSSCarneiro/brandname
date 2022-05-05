@@ -1,0 +1,145 @@
+
+.contanier-header {
+    background:url(/src/imagens/image11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;      
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    color: var(--fonte-cor-branca);
+    font-weight: 700;  
+}
+ .home h3 {
+     margin-top: 10px;
+ }
+
+.home ul {
+    display: flex;
+    margin-top: 10px;   
+}
+
+.home ul li {
+    padding: 20px; 
+}
+.home a {
+    color: var(--fonte-cor-branca); 
+    transition: 0.2s ease-in-out;   
+    font-weight: 600;
+}
+
+.home a:hover {
+    color: var(--azul-padrao-claro);
+}
+
+.login ul {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.login .btn-member {
+    height: 50px;
+    width: 215px;
+    background: var(--azul-padrao-claro);
+    border-radius: 5px;
+    padding: 15px 52px 15px 25px;
+}
+
+.btn-member i  {
+    margin-left: 10px;
+}
+
+.login .btn-member:hover {
+    background-color: aliceblue;
+    color: var(--azul-padrao-claro);
+}
+
+.container-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--fonte-cor-branca);
+    padding: 220px 300px;
+}
+
+.container-conteudo h1 {
+    font-size: var(--fonte-grande);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-conteudo .container-titulo p {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0 100px;
+    font-size: var(--fonte-media);
+    line-height: 35px;
+}
+
+.container-conteudo .botao-conteudo .btn {
+    color: var(--fonte-cor-branca);
+    padding: 20px 30px;
+    margin-right: 10px;
+    border-radius: 37px;
+}
+
+.container-conteudo .botao-conteudo .btn-1 {
+    background-color: var(--azul-padrao-claro);
+    transition: 0.2s ease;
+}
+
+.container-conteudo .botao-conteudo .btn-1:hover {
+    background-color: aliceblue;
+    color: var(--azul-padrao-claro);
+}
+
+.container-conteudo .botao-conteudo .btn-2 {
+    border: solid 2px #ffff;
+    padding: 15px 20px;
+}
+
+.card-info {
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    margin-top: 180px;   
+}
+
+.card-info .card {
+    background-color: var(--fonte-cor-branca);
+    width: 328px;
+    height: 202px;
+    box-shadow: 1px 5px 5px  rgb(134, 134, 134);
+    color: var(--azul-padrao-escuro);
+    padding: 30px 60px 30px 40px;
+}
+.card-info .card img {
+    margin-bottom: 11px;  
+}
+
+.card-info .card h3 {
+    margin-bottom: 15px;
+    font-size: var(--fonte-media);
+}
+
+.card-info .card p{
+    color: var(--cor-fonte-escura);
+    font-size: var(--fonte-muito-pequena);
+    padding-right: 15px;
+    line-height: 20px;
+}
+
+.card-info .card3 {
+    background-color: var(--azul-padrao-claro);
+    color: var(--fonte-cor-branca);
+}
+
+.card-info .card3 p{
+    color: var(--fonte-cor-branca);
+}
