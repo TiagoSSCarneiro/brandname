@@ -1,6 +1,6 @@
 
 .contanier-header {
-    background:url(/src/imagens/image11.png);
+    background:url(../imagens/image11.png)  ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
